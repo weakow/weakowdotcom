@@ -33,7 +33,6 @@ export default class PostTemplate extends React.Component {
             <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
           </Helmet>
           <SEO postPath={slug} postNode={postNode} postSEO />
-          <header><a href="/"><img src="/logos/logo.svg" /></a></header>
           <div class="article">
             <h1>{post.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
