@@ -33,8 +33,11 @@ export default class PostTemplate extends React.Component {
           <div>
             <h1>{post.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
-            <UserInfo config={config} />
-            <Disqus postNode={postNode} />
+            <div className="post-meta">
+              <PostTags tags={post.tags} />
+
+            </div>
+            
           </div>
         </div>
       </Layout>
