@@ -28,16 +28,19 @@ export default class PostTemplate extends React.Component {
         <div>
           <Helmet>
             <title>{`${post.title} | ${config.siteTitle}`}</title>
+            <link rel="shortcut icon" href="/favicon.ico" />
+            <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+            <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
           </Helmet>
           <SEO postPath={slug} postNode={postNode} postSEO />
-          <div>
+          <div class="article">
             <h1>{post.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
             <div className="post-meta">
               <PostTags tags={post.tags} />
 
             </div>
-            
+
           </div>
         </div>
       </Layout>
