@@ -1,5 +1,13 @@
 .post-meta {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.author-line {
+  display: block;
+  margin: 36px 0 72px;
+  text-align: center;
 }

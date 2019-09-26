@@ -6,7 +6,7 @@ import "./Footer.css";
 class Footer extends Component {
   render() {
     const { config } = this.props;
-    const url = config.siteRss;
+  S  const url = config.siteRss;
     const { copyright } = config;
     if (!copyright) {
       return null;

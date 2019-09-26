@@ -39,8 +39,8 @@ const config = {
     }
   ],
   copyright: "© 2019 weakow", // Copyright string for the footer of the website and RSS feed.
-  themeColor: "#c62828", // Used for setting manifest and progress theme colors.
-  backgroundColor: "#e0e0e0" // Used for setting manifest background color.
+  themeColor: "#243147", // Used for setting manifest and progress theme colors.
+  backgroundColor: "#fdfeff" // Used for setting manifest background color.
 };
 
 // Validate
