@@ -37,7 +37,6 @@ export default class PostTemplate extends React.Component {
             <h1>{post.title}</h1>
             <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
           </div>
-          <footer>© 2019 weakow</footer>
         </div>
       </Layout>
     );
